@@ -1,1 +1,2 @@
-# TradingEnergy
+## EPEX for Energy Trading,
+###### I've built a simple web application using Python, Docker Django, and sqlite. Energy traders is the target audience to help them get the best outcomes on the markets by generate insights and data-driven trading decisions. The web compute and submit orders to buy and sell energy clearly, in addition to present the status of each trading strategy in case of profit or loss.

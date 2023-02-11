@@ -34,4 +34,4 @@ def create_connection(db_file):
 
 if __name__ == '__main__':
     main()
-    create_connection(r"C:\Users\Dell\Desktop\kwd\TradingEnergy\trades.sqlite")
+    create_connection(r'c:\Users\Dell\Desktop\kwd\KWD\TradingEnergy\TradingEnergy\trades.sqlite')

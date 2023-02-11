@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve()
 
 
 # Quick-start development settings - unsuitable for production
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'trading.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': r'C:\Users\Dell\Desktop\kwd\TradingEnergy\trades.sqlite',
+        'NAME': ( r'c:\Users\Dell\Desktop\kwd\KWD\TradingEnergy\TradingEnergy\trades.sqlite')
     }
 }
 

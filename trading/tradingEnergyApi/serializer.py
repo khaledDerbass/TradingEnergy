@@ -4,4 +4,4 @@ from .models import tradeModel
 class TradeSerializer(serializers.ModelSerializer):
     class Meta:
          model =  tradeModel
-         fields = ('id','side')
+         fields = '__all__'

@@ -2,7 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+import sqlite3 
+from sqlite3 import Error
 
 def main():
     """Run administrative tasks."""
@@ -18,5 +19,19 @@ def main():
     execute_from_command_line(sys.argv)
 
 
+def create_connection(db_file):
+    """ create a database connection to a SQLite database """
+    conn = None
+    try:
+        conn = sqlite3.connect(db_file)
+        print(sqlite3.version)
+    except Error as e:
+        print(e)
+    finally:
+        if conn:
+            conn.close()
+
+
 if __name__ == '__main__':
     main()
+    create_connection(r"C:\Users\Dell\Desktop\kwd\TradingEnergy\trades.sqlite")

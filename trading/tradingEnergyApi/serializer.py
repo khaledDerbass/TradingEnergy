@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from DataModel import tradeModel
+from .models import tradeModel
 
 class TradeSerializer(serializers.ModelSerializer):
     class Meta:
          model =  tradeModel
-         fields = '__all__'
+         fields = ('id','side')

@@ -1,0 +1,5 @@
+{
+    "swaggerViewer.defaultHost": "api.example.com",
+    "swaggerViewer.showOnlyFileName": true,
+    "swaggerViewer.defaultPort": 9000
+}
